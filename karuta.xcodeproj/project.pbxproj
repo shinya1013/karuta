@@ -19,6 +19,7 @@
 		D5C614A61951FD7700F94E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C6148E1951FD7700F94E72 /* UIKit.framework */; };
 		D5C614AE1951FD7700F94E72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5C614AC1951FD7700F94E72 /* InfoPlist.strings */; };
 		D5C614B01951FD7700F94E72 /* karutaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C614AF1951FD7700F94E72 /* karutaTests.m */; };
+		D5C614BA1951FE1C00F94E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C614B91951FE1C00F94E72 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D5C614AB1951FD7700F94E72 /* karutaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "karutaTests-Info.plist"; sourceTree = "<group>"; };
 		D5C614AD1951FD7700F94E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5C614AF1951FD7700F94E72 /* karutaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = karutaTests.m; sourceTree = "<group>"; };
+		D5C614B91951FE1C00F94E72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		D5C614901951FD7700F94E72 /* karuta */ = {
 			isa = PBXGroup;
 			children = (
+				D5C614B91951FE1C00F94E72 /* Main.storyboard */,
 				D5C614991951FD7700F94E72 /* KLTAppDelegate.h */,
 				D5C6149A1951FD7700F94E72 /* KLTAppDelegate.m */,
 				D5C6149C1951FD7700F94E72 /* Images.xcassets */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C614BA1951FE1C00F94E72 /* Main.storyboard in Resources */,
 				D5C614951951FD7700F94E72 /* InfoPlist.strings in Resources */,
 				D5C6149D1951FD7700F94E72 /* Images.xcassets in Resources */,
 			);
